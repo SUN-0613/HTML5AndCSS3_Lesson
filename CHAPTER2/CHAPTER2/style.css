@@ -1,5 +1,25 @@
-﻿body {font-family:"メイリオ","Hiragino Kaku Gothic Pro",sans-serif}
+﻿/* body */
+body {
+    font-family:"メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
+    background-color:#EDEDE3
+}
 
-h1 {font-size:38px}
+/* 見出し */
+h1 {
+    font-size:38px
+}
 
-p {line-height:1.5}
+/* 段落 */
+p {
+    line-height:1.5   
+}
+
+/* ヘッダ */
+header {
+    background-color:#DDDDDD
+}
+
+/* コンテンツ */
+article {
+    background-color:#FFFFFF
+}
