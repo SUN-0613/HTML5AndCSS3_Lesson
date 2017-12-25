@@ -1,25 +1,36 @@
 ﻿/* body */
 body {
     font-family:"メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
-    background-color:#EDEDE3
+    background-color:#EDEDE3;
 }
 
 /* 見出し */
 h1 {
-    font-size:38px
+    font-size:38px;
 }
 
 /* 段落 */
 p {
-    line-height:1.5   
+    line-height:1.5;
 }
 
 /* ヘッダ */
 header {
-    background-color:#DDDDDD
+    background-color:#DDDDDD;
 }
 
 /* コンテンツ */
 article {
-    background-color:#FFFFFF
+    background-color:#FFFFFF;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
 }
+
+/* フッタ */
+footer {
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
