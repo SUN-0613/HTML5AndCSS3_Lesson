@@ -33,7 +33,9 @@ article {
     padding: 30px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    -webkit-box-shadow: 1px 1px 3px #AAAAAA;
+    -moz-box-shadow: 1px 1px 3px #AAAAAA;
 
 }
 
