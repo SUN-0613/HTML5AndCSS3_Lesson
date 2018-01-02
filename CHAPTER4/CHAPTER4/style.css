@@ -1,0 +1,112 @@
+﻿/* import */
+@import url(http://fonts.googleapis.com/css?family=Chango);
+
+/* body */
+body {
+    font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
+    background-color: #EDEDE3;
+    background-image: url(back.png);
+    margin: 0;
+}
+
+/* 見出し */
+h1 {
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* 段落 */
+p {
+    line-height: 1.5;
+}
+
+/* ヘッダ */
+header {
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #AAAAAA;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 1px 7px #AAAAAA;
+    -moz-box-shadow: 0px 1px 7px #AAAAAA;
+    padding: 5px 5px 5px 5px;
+}
+
+/* ヘッダの見出し */
+header h1 {
+    font-family: "Chango", cursive;
+    font-size: 24px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 img {
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+
+/* コンテンツ */
+article {
+    background-color: #FFFFFF;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border:solid 1px #AAAAAA;*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AAAAAA;
+    padding: 30px 30px 30px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 10px 5px 3px #AAAAAA;
+    -moz-box-shadow: 10px 5px 3px #AAAAAA;
+    border-radius: 10px 5px 10px 10px;
+    overflow: hidden;
+}
+
+/* フッタ */
+footer {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+/* 画像中央配置 */
+figure.photo-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* 画像左配置 */
+figure.photo-left {
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+figure.photo-left img {
+    width: 550px;
+}
+
+/* 画像右配置 */
+figure.photo-right {
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+figure.photo-right img {
+    width: 550px;
+}
+
+/* ヘッダ２の見出し */
+h2 {
+    clear: both;
+    border-bottom: solid 5px #C39F4A;
+    margin-top: 30px;
+}
