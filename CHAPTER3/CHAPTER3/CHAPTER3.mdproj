@@ -15,5 +15,7 @@
     <None Include="sunflower.jpg" />
     <None Include="logo.png" />
     <None Include="back.png" />
+    <None Include="news02.html" />
+    <None Include="forest.jpg" />
   </ItemGroup>
 </Project>
