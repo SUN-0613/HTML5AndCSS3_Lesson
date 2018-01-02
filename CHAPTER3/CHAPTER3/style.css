@@ -56,6 +56,7 @@ article {
     -webkit-box-shadow: 10px 5px 3px #AAAAAA;
     -moz-box-shadow: 10px 5px 3px #AAAAAA;
     border-radius: 10px 5px 10px 10px;
+    overflow: hidden;
 }
 
 /* フッタ */
@@ -63,6 +64,7 @@ footer {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
 }
 
 /* 画像中央配置 */
@@ -70,4 +72,26 @@ figure.photo-center {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* 画像左配置 */
+figure.photo-left {
+    margin: 0;
+    margin-right: 20px;
+    float: left;
+}
+
+figure.photo-left img {
+    width: 550px;
+}
+
+/* 画像右配置 */
+figure.photo-right {
+    margin: 0;
+    margin-right: 20px;
+    float: right;
+}
+
+figure.photo-right img {
+    width: 550px;
 }
