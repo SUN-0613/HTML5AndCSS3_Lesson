@@ -12,5 +12,6 @@
   <ItemGroup>
     <None Include="news01.html" />
     <None Include="style.css" />
+    <None Include="sunflower.jpg" />
   </ItemGroup>
 </Project>
