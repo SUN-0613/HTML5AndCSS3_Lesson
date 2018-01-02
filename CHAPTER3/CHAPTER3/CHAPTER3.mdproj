@@ -13,5 +13,6 @@
     <None Include="news01.html" />
     <None Include="style.css" />
     <None Include="sunflower.jpg" />
+    <None Include="logo.png" />
   </ItemGroup>
 </Project>
