@@ -17,5 +17,8 @@
     <None Include="back.png" />
     <None Include="news02.html" />
     <None Include="forest.jpg" />
+    <None Include="snow.jpg" />
+    <None Include="winter.jpg" />
+    <None Include="news03.html" />
   </ItemGroup>
 </Project>

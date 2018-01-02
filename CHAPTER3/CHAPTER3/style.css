@@ -84,8 +84,8 @@ figure.photo-center {
 figure.photo-left {
     margin: 0;
     margin-right: 20px;
+    margin-bottom: 20px;
     float: left;
-    text-alignment: center;
 }
 
 figure.photo-left img {
@@ -96,10 +96,17 @@ figure.photo-left img {
 figure.photo-right {
     margin: 0;
     margin-left: 20px;
+    margin-bottom: 20px;
     float: right;
-    text-alignment: center;
 }
 
 figure.photo-right img {
     width: 550px;
+}
+
+/* ヘッダ２の見出し */
+h2 {
+    clear: both;
+    border-bottom: solid 5px #C39F4A;
+    margin-top: 30px;
 }
