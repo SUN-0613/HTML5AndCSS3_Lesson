@@ -40,6 +40,18 @@ header h1 {
     margin-right: auto;
 }
 
+/* ヘッダ：リンク */
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ヘッダ：リンク：マウスオーバ */
+header h1 a:hover {
+    color: #000000;
+}
+
+/* ヘッダ画像 */
 header h1 img {
     vertical-align: -10px;
     margin-right: 5px;
@@ -119,6 +131,11 @@ a {
 /* リンクの表示：マウスオーバ */
 a:hover {
     color: #FF8800;
+}
+
+/* リンクの表示：画像 */
+a img {
+    border: none;
 }
 
 /* 関連記事 */
