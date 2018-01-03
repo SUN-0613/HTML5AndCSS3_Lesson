@@ -1,0 +1,14 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CHAPTER5", "CHAPTER5\CHAPTER5.mdproj", "{E1F64213-AF76-447D-A78D-4D22C07D8E64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1F64213-AF76-447D-A78D-4D22C07D8E64}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{E1F64213-AF76-447D-A78D-4D22C07D8E64}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+EndGlobal

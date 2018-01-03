@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{EF02E029-99B3-4A12-A406-6E5E97354998}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CHAPTER4/style.css">
     <Files>
-      <File FileName="CHAPTER4/news01.html" Line="1" Column="1" />
-      <File FileName="CHAPTER4/news02.html" Line="1" Column="1" />
-      <File FileName="CHAPTER4/news03.html" Line="1" Column="1" />
-      <File FileName="CHAPTER4/style.css" Line="1" Column="1" />
+      <File FileName="CHAPTER4/news01.html" Line="12" Column="17" />
+      <File FileName="CHAPTER4/news02.html" Line="43" Column="18" />
+      <File FileName="CHAPTER4/news03.html" Line="41" Column="14" />
+      <File FileName="CHAPTER4/style.css" Line="6" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
