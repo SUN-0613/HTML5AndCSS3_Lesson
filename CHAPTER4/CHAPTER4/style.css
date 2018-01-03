@@ -110,3 +110,13 @@ h2 {
     border-bottom: solid 5px #C39F4A;
     margin-top: 30px;
 }
+
+/* リンクの表示 */
+a {
+    color: #B77D3C;
+}
+
+/* リンクの表示：マウスオーバ */
+a:hover {
+    color: #FF8800;
+}
