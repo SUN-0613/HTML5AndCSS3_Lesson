@@ -120,3 +120,31 @@ a {
 a:hover {
     color: #FF8800;
 }
+
+/* 関連記事 */
+aside {
+    border: solid 2px #D6C588;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #EDEDE3;
+    margin-top: 40px;
+}
+
+/* 関連記事：ヘッダ */
+aside h1 {
+    font-family: "Chango", cursive;
+    font-size: 18px;
+    color: #C39F4A;
+    border-bottom: dotted 1px #C39F4A;
+}
+
+/* 関連記事：リストマークアップ */
+aside ul {
+    list-style-image: url(listmark.png);
+}
+
+/* 関連維持：リンクの表示 */
+aside a {
+    color: #000000;
+    text-decoration: none;
+}
