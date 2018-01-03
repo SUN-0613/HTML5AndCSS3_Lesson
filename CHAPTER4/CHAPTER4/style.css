@@ -148,3 +148,42 @@ aside a {
     color: #000000;
     text-decoration: none;
 }
+
+/* ナビゲーション */
+nav {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: -27px;
+    margin-bottom: 10px;
+}
+
+/* ナビゲーション：リンクの表示 */
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ナビゲーション：リスト */
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 0;
+}
+
+/* ナビゲーション：リスト項目 */
+nav li {
+    display: inline;
+    font-size: 12px;
+    border-right: solid 1px #AAAAAA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ナビゲーション：1つ目のリンクの左側に罫線表示 */
+nav li:first-child {
+    border-left: solid 1px #AAAAAA;
+}
