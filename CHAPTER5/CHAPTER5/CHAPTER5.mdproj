@@ -25,5 +25,6 @@
     <None Include="forest-thumb.jpg" />
     <None Include="sunflower-thumb.jpg" />
     <None Include="winter-thumb.jpg" />
+    <None Include="index.html" />
   </ItemGroup>
 </Project>
