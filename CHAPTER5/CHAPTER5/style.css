@@ -62,8 +62,8 @@ header h1 img {
     margin-right: 5px;
 }
 
-/* コンテンツ */
-article {
+/* コンテンツ、メッセージ */
+article, #message {
     background-color: #FFFFFF;
     width: 900px;
     margin-left: auto;
