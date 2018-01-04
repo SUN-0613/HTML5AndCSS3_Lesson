@@ -293,3 +293,15 @@ nav li:first-child {
     text-shadow: 0 5px 10px #000000;
 }
 
+/* index.html：リンク */
+    #photo a {
+        background-color: #FFAA00;
+        background-image: -webkit-gradient( linear, left top, left bottom, from(#FFE7B8), to(#FFAA00) );
+        background-image: -webkit-linear-gradient( top, #FFE7B8 0%, #FFAA00 100% );
+        background-image: linear-gradient( to bottom, #FFE7B8 0%, #FFAA00 100% );
+        padding: 10px 80px;
+        border-radius: 10px;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
