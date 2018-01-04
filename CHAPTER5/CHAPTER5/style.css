@@ -260,3 +260,36 @@ nav li:first-child {
 #posts article {
     padding: 0;
 }
+
+/* index.html：ヘッダ */
+#top header {
+    margin-bottom: 0;
+}
+
+/* index.html：画像用 */
+#photo {
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #3F8AD6;
+    text-align: center;
+    padding-top: 320px;
+    padding-bottom: 80px;
+}
+
+/* index.html：画像用：見出し */
+#photo h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: "Chango", cursive;
+    text-shadow: 0 5px 10px #000000;
+}
+
+/* index.html：画像用：段落 */
+#photo p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 5px 10px #000000;
+}
+
