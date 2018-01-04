@@ -21,5 +21,9 @@
     <None Include="style.css" />
     <None Include="sunflower.jpg" />
     <None Include="winter.jpg" />
+    <None Include="news.html" />
+    <None Include="forest-thumb.jpg" />
+    <None Include="sunflower-thumb.jpg" />
+    <None Include="winter-thumb.jpg" />
   </ItemGroup>
 </Project>
