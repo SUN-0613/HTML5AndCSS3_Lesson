@@ -1,0 +1,307 @@
+﻿/* import */
+@import url(http://fonts.googleapis.com/css?family=Chango);
+
+/* スクロールを常に表示 */
+html {
+    overflow-y: scroll;
+}
+
+/* body */
+body {
+    font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
+    background-color: #EDEDE3;
+    background-image: url(back.png);
+    margin: 0;
+}
+
+/* 見出し */
+h1 {
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* 段落 */
+p {
+    line-height: 1.5;
+}
+
+/* ヘッダ */
+header {
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #AAAAAA;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 1px 7px #AAAAAA;
+    -moz-box-shadow: 0px 1px 7px #AAAAAA;
+    padding: 5px 5px 5px 5px;
+}
+
+/* ヘッダの見出し */
+header h1 {
+    font-family: "Chango", cursive;
+    font-size: 24px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ヘッダ：リンク */
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ヘッダ：リンク：マウスオーバ */
+header h1 a:hover {
+    color: #000000;
+}
+
+/* ヘッダ画像 */
+header h1 img {
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+
+/* コンテンツ、メッセージ */
+article, #message {
+    background-color: #FFFFFF;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border:solid 1px #AAAAAA;*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AAAAAA;
+    padding: 30px 30px 30px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 10px 5px 3px #AAAAAA;
+    -moz-box-shadow: 10px 5px 3px #AAAAAA;
+    border-radius: 10px 5px 10px 10px;
+    overflow: hidden;
+}
+
+/* フッタ */
+footer {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+/* 画像中央配置 */
+figure.photo-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* 画像左配置 */
+figure.photo-left {
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+figure.photo-left img {
+    width: 550px;
+}
+
+/* 画像右配置 */
+figure.photo-right {
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+figure.photo-right img {
+    width: 550px;
+}
+
+/* ヘッダ２の見出し */
+h2 {
+    clear: both;
+    border-bottom: solid 5px #C39F4A;
+    margin-top: 30px;
+}
+
+/* リンクの表示 */
+a {
+    color: #B77D3C;
+}
+
+/* リンクの表示：マウスオーバ */
+a:hover {
+    color: #FF8800;
+}
+
+/* リンクの表示：画像 */
+a img {
+    border: none;
+}
+
+/* 関連記事 */
+aside {
+    border: solid 2px #D6C588;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #EDEDE3;
+    margin-top: 40px;
+}
+
+/* 関連記事：ヘッダ */
+aside h1 {
+    font-family: "Chango", cursive;
+    font-size: 18px;
+    color: #C39F4A;
+    border-bottom: dotted 1px #C39F4A;
+}
+
+/* 関連記事：リストマークアップ */
+aside ul {
+    list-style-image: url(listmark.png);
+}
+
+/* 関連維持：リンクの表示 */
+aside a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ナビゲーション */
+nav {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: -27px;
+    margin-bottom: 10px;
+}
+
+/* ナビゲーション：リンクの表示 */
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ナビゲーション：リスト */
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 0;
+}
+
+/* ナビゲーション：リスト項目 */
+nav li {
+    display: inline;
+    font-size: 12px;
+    border-right: solid 1px #AAAAAA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ナビゲーション：1つ目のリンクの左側に罫線表示 */
+nav li:first-child {
+    border-left: solid 1px #AAAAAA;
+}
+
+/* news.html：コンテンツ：画像 */
+#posts article img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* news.html：コンテンツ：ヘッダの見出し */
+#posts article h1 {
+    font-size: 24px;
+}
+
+/* news.html：記事 */
+#posts section {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* news.html：ヘッダ */
+#posts header {
+    margin-bottom: 20px;
+}
+
+/* news.html：時間表示 */
+#posts time {
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #BDBC8F;
+    border-radius: 10px;
+    padding: 2px 20px 2px 20px;
+}
+
+/* news.html：コンテンツ：リンク */
+#posts article a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* news.html：コンテンツ：リンク：マウスオーバ */
+#posts article a:hover {
+    background-color: #FFE792;
+}
+
+/* news.html：コンテンツ */
+#posts article {
+    padding: 0;
+}
+
+/* index.html：ヘッダ */
+#top header {
+    margin-bottom: 0;
+}
+
+/* index.html：画像用 */
+#photo {
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #3F8AD6;
+    text-align: center;
+    padding-top: 320px;
+    padding-bottom: 80px;
+}
+
+/* index.html：画像用：見出し */
+#photo h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: "Chango", cursive;
+    text-shadow: 0 5px 10px #000000;
+}
+
+/* index.html：画像用：段落 */
+#photo p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 5px 10px #000000;
+}
+
+/* index.html：リンク */
+    #photo a {
+        background-color: #FFAA00;
+        background-image: -webkit-gradient( linear, left top, left bottom, from(#FFE7B8), to(#FFAA00) );
+        background-image: -webkit-linear-gradient( top, #FFE7B8 0%, #FFAA00 100% );
+        background-image: linear-gradient( to bottom, #FFE7B8 0%, #FFAA00 100% );
+        padding: 10px 80px;
+        border-radius: 10px;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+    }
