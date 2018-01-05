@@ -316,6 +316,7 @@ table {
     border-collapse: collapse; /*罫線を重ねて表示*/
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 /* about.html：テーブルの見出し、セル */
@@ -334,4 +335,13 @@ th {
 td {
     width: 450px;
     background-color: #FFEDCE;
+}
+
+/* about.html：キャプション */
+caption {
+    font-weight: bold;
+    background-color: #D9D8A7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
