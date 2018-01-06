@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{A07D545F-FE3D-43E3-B599-2D5D1822BFF1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CHAPTER6/about.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CHAPTER6/contact.html">
     <Files>
-      <File FileName="CHAPTER6/about.html" Line="93" Column="26" />
+      <File FileName="CHAPTER6/contact.html" Line="91" Column="1" />
       <File FileName="CHAPTER6/style.css" Line="346" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>

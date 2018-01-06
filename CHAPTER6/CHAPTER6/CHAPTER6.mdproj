@@ -28,5 +28,6 @@
     <None Include="winter-thumb.jpg" />
     <None Include="winter.jpg" />
     <None Include="about.html" />
+    <None Include="contact.html" />
   </ItemGroup>
 </Project>
