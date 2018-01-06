@@ -356,6 +356,11 @@ input {
     width: 400px;
 }
 
+#radio input {
+    display: inline;
+    width: 20px;
+}
+
 /* contact.html：送信ボタン */
 input[type="submit"] {
     width: 200px;
