@@ -345,3 +345,32 @@ caption {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+/* contact.html：入力欄形態 */
+input, textarea {
+    display: block;
+}
+
+/* contact.html：入力欄サイズ */
+input {
+    width: 400px;
+}
+
+/* contact.html：送信ボタン */
+input[type="submit"] {
+    width: 200px;
+    background-color: #FFAA00;
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#FFE7B8), to(#FFAA00) );
+    background-image: -webkit-linear-gradient( top, #FFE7B8 0%, #FFAA00 100% );
+    background-image: linear-gradient( to bottom, #FFE7B8 0%, #FFAA00 100% );
+    border: solid 1px #AAAAAA;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* contact.html：コメント欄サイズ */
+textarea {
+    width: 600px;
+    height: 120px;
+}
